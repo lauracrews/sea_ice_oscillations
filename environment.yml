@@ -1,4 +1,4 @@
-name: sea-ice-oscillations
+name: process-viirs-images
 channels:
   - conda-forge
 dependencies:
@@ -8,9 +8,6 @@ dependencies:
   - xarray-datatree
   - satpy
   - sentinelsat
-  # - opticalflow
-  - py-opencv
-  - openpiv
   - scikit-image
   - matplotlib-base
   - earthaccess
@@ -26,8 +23,6 @@ dependencies:
   - h5netcdf
   - h5py
   - xesmf
- # - esmf=8.2.0
- # - esmpy=8.2.0
   - pip
   - pip:
       - flowpy
